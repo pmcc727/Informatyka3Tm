@@ -1,0 +1,64 @@
+html {
+  font-family:              Lato;
+  background-color:         #003554;
+  color:                    #0582ca;
+}
+
+hr.start {
+  border:                   2px solid #051923;
+}
+
+details
+{
+    border:                 2px solid #006494;
+    border-radius:          10px;
+}
+
+
+
+div.all {
+  width:                    800px;
+  margin:                   auto;
+}
+
+table.img{
+  width:                    800px;
+  border:                   2px solid #006494;
+  border-radius:            10px;
+  height:                   auto;
+}
+
+td.pic {
+  align-items:              center;
+}
+
+td.in, th.in {
+  border-bottom: 1px solid #0582ca;
+}
+
+
+
+p {
+  color:                    #0582ca;
+}
+
+a {
+  color:                    #00a6fb;
+  text-decoration-style:    solid;
+}
+
+u {
+  text-decoration-line:     underline;
+  text-decoration-style:    wavy;
+}
+
+img.pic {
+  width:                    290px;
+  margin-bottom:            0px;
+  margin-top:               0px;
+}
+
+h1 {
+  margin-bottom:            5px;
+}
+
