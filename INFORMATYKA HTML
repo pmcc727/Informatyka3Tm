@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!--Ta Linijka odpowiada za odpowiednie skalowanie na telefonach-->
+    <link rel="stylesheet" href="style.css">                                <!--Deklaracja pliku ze stylami strony-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">   <!--Rozpoczęcie połączenia z serwerami Google w celu pobrania czcionki-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Nasza Strona</title>                                            <!-- Tytuł strony wyświetlany na karcie przeglądarki -->
+  </head>
+  
+  <body>
+   <div class="all">
+    <h1>Rodzaje paliw i typy nadwozia</h1>
+    <hr class="start">
+    <details class="details">
+        <summary><b>1. Rodzaje paliwa</b></summary>
+        
+        <ul>
+        <li>Benzyna:</li>
+        <li style="margin-left:20px;">95 E10 (10% dodatek bioetanolu zamiast wcześniejszych 5%-95 E5) (dawniej było to Pb95 - dodatek ołowiu)</li>
+        <li style="margin-left:20px;">98 E5 (5% dodatek bioetanolu);</li>
+        <li>Benzyna + LPG (propan-butan)</li>
+        <li>Benzyna + CNG (gaz ziemny)</li>
+        <li>Hybryda:</li>
+        <li style="margin-left:20px;">"zwykła"</li>
+        <li style="margin-left:20px;">Plug-in</li>
+        <li>Diesel</li>
+        <li>Etanol</li>
+        <li>Wodór</li>
+        <li>EV</li>
+        </ul>
+    </details>
+
+    <br>
+
+    <p><b>2. Benzyna 95 a 98  </b><br> 
+    Główna różnica to liczba oktanowa, która określa odporność paliwa na spalanie stukowe (inaczej samozapłon). Benzyna 98 ma więcej oktanów, przez co jest głównie przeznaczona do 
+    silników o wysokim stopniu sprężania (np. turbodoładowane). Natomiast benzyna 95 jest powrzechniej stosowana przez niższą cenę i fakt, że w "normalnych", wolnossących silnikach
+    praktycznie nie ma różnicy w mocy i spalaniu. </p>
+
+    <p><b>3. Benzyna + LPG a benzyna + CNG</b><br>
+    Instalacja LPG jest znacznie częściej spotykana, ponieważ do skroplenia potrzebne jest niższe ciśnienie, przez co można stosować lekkie stalowe zbiorniki, które zajmują stosunkowo 
+    niewiele miejsca. Natomiast do instalacji CNG potrzebne jest duże ciśnienie do skroplenia gazu (ok. 200 barów) przez co trzeba stosować o wiele grubsze i cylindryczne zbiorniki, które 
+    zajmują znacznie więcej miejsca. CNG jest ekologiczniejsze od LPG, ale mniej dostępnie w Polsce na stacjach, dodatkowo LPG jest tańsze.
+    </p>
+
+    <p><b>4. Hybrydy</b><br>
+   Hybryda typu Plug-in (np. nowy Opel Astra) różni się od standardowej hybrydy (np. Toyota Corolla) tym, że w Plug-in trzeba osobno ładować napęd elektryczny, a w standardowej napęd ładuje 
+   się sam podczas jazdy.
+    </p>
+
+    <p><b>5. Diesel</b><br>
+   Paliwo stosowane w silnikach wysokoprężnych. Oznaczenia: TDI, CDTI, DTI, HDI, dCi, SDI, CRDI, JTD, Multijet, TDCi, TDDi. 
+   </p>
+
+   <p><b>6. Etanol</b><br>
+   Paliwo stosowane głównie w samochodach o dużych mocach przeznaczonych, np. do wyścigów.
+   </p>
+
+    <table class="img">
+      <tr>
+        <td class="in">Typy nadwozia</td>
+        <td class="in">
+        <a href="https://pl.wikipedia.org/wiki/Mińsk">Mińsk</a>
+        </td>
+      </tr>
+      <tr>
+        <td class="in">Hatchback</td>
+        <td class="in">25 sierpnia 1991</td>
+      </tr>
+      <tr>
+        <td class="in">Hot hatch</td>
+        <td class="in">207 595 km</207><sup>2</sup></td>
+      </tr>
+      <tr>
+        <td class="in">Coupe</td>
+        <td class="in">9 200 617</td>
+      </tr>
+      <tr>
+        <td class="in">Sedan</td>
+        <td class="in">.by</td>
+      </tr>
+      <tr>
+        <td class="in">Cabrio</td>
+        <td class="in">Bialoruski, Rosyjski</td>
+      </tr>
+      <tr>
+        <td class="in">Kombi</td>
+        <td class="in">Bialoruski, Rosyjski</td>
+      </tr>
+      <tr>
+        <td class="in">Minivan</td>
+        <td class="in">Bialoruski, Rosyjski</td>
+      </tr>
+      <tr>
+        <td class="in">SUV</td>
+        <td class="in">Bialoruski, Rosyjski</td>
+      </tr>
+      <tr>
+        <td class="in">Limuzyna</td>
+        <td class="in">Bialoruski, Rosyjski</td>
+      </tr>
+      <tr>
+        <td class="in">Roadster</td>
+        <td class="in">Bialoruski, Rosyjski</td>
+      </tr>
+      <tr>
+        <td class="in">Sportowe</td>
+        <td class="in">Bialoruski, Rosyjski</td>
+      </tr>
+      <tr>
+        <td class="in">Crossover</td>
+        <td class="in">Bialoruski, Rosyjski</td>
+      </tr>
+      <tr>
+        <td class="in">Muscle car</td>
+        <td class="in">Bialoruski, Rosyjski</td>
+      </tr>
+      <tr>
+        <td class="in">Muscle car</td>
+        <td class="in">Bialoruski, Rosyjski</td>
+      </tr>
+
+
+
+
+
+   </div>
+  </body>
+
+</html>
