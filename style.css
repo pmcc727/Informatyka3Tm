@@ -1,6 +1,6 @@
 html {
   font-family:              Lato;
-  background-color:         #003554;
+  background-color:         #000000;
   color:                    #0582ca;
 }
 
@@ -14,11 +14,31 @@ details
     border-radius:          10px;
 }
 
-
-
 div.all {
-  width:                    800px;
-  margin:                   auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    padding: px;
+}
+
+div.main{
+    width: 800px;
+    margin:  auto;
+    background: #000000;
+    padding: 20px;
+}
+
+div.side{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    border-radius: 10px;
+    width: 250px;
+    background: #051923;
+    color: white;
+    padding: 20px;
+    min-height: 300px;
 }
 
 table.img{
@@ -42,6 +62,14 @@ td.in, th.in {
 
 p {
   color:                    #0582ca;
+  
+}
+p.img {
+  color:                    #0582ca;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 20px;
 }
 
 a {
@@ -55,8 +83,10 @@ u {
 }
 
 img.pic {
-  width:                    290px;
-  margin-bottom:            0px;
+  border-radius: 10px;
+  border: solid 3px #006494;
+  width:                    800px;
+  margin-bottom:            10px;
   margin-top:               0px;
 }
 
