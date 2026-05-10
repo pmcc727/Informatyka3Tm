@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <!--Ta Linijka odpowiada za odpowiednie skalowanie na telefonach-->
+    <meta charset="utf-8">                                                  <!--deklaracja w jakim kodowaniu ma czytać przeglądarka-->
     <link rel="stylesheet" href="style.css">                                <!--Deklaracja pliku ze stylami strony-->
     <link rel="preconnect" href="https://fonts.googleapis.com">   <!--Rozpoczęcie połączenia z serwerami Google w celu pobrania czcionki-->
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" 
+    rel="stylesheet">                                                      <!--link do czcionki zastosowanej na stronie-->
     <title>Nasza Strona</title>                                            <!-- Tytuł strony wyświetlany na karcie przeglądarki -->
   </head>
   
   <body>
-  <div class="all">
+  <div class="all">                                                         <!--Wywołanie Stylu z Pliku .css-->
 
-   <div class="main">
-    <h1>Rodzaje paliw i typy nadwozia</h1>
+   <div class="main">                                                       <!--### STRONA GŁÓWNA ###-->
+    <h1>Rodzaje paliw i typy nadwozia</h1>                                  <!-- Tytuł -->
     <hr class="start">
-    <details class="details">
-        <summary><b>1. Rodzaje paliwa</b></summary>
+    <details class="details">                                               <!--Stworzenie Wysuwanego paska u góry strony oraz Wywołanie Stylu z Pliku .css-->
+        <summary><b>1. Rodzaje paliwa</b></summary>                         <!--treść paska-->
         
         <ul>
         <li>Benzyna:</li>
@@ -61,7 +61,7 @@
    Paliwo stosowane głównie w samochodach o dużych mocach przeznaczonych, np. do wyścigów.
    </p>
 
-    <table class="img">
+    <table class="main">                                                    <!--Stworzenie Tabeli-->
       <tr>
         <td class="in">Typy nadwozia</td>
         <td class="in">Przykład</td>
@@ -128,10 +128,14 @@
 
 
    </div>
-   <div class="side">
-    <a href="index.html">Strona główna</a>
+   <div class="side">                                                      <!--### PASEK Z LEWEJ STRONY ###-->
+    <a href="index.html">
+    <button class="button">Strona Główna</button>                           <!--Przycisk z lewej strony-->
+    </a>
     <br>
-    <a href="gallery.html">Galeria zdjęć</a>
+    <a href="gallery.html">                   
+      <button class="button">Galeria</button>                               <!--Przycisk z lewej strony-->
+    </a>  
    </div>
 
 </div>
