@@ -34,31 +34,34 @@ div.side{
     top: 20px;
     left: 20px;
     border-radius: 10px;
-    width: 250px;
+    border: 2px solid #006494;
+    width: 150px;
     background: #051923;
     color: white;
     padding: 20px;
-    min-height: 300px;
+    min-height: ;
 }
 
-table.img{
+button{
+    background-color: #0582ca;
+    border-color: #051923;
+    border-radius: 5px;
+    height: 30px;
+    margin-bottom: 5px;
+}
+
+
+table.main{
   width:                    800px;
   border:                   2px solid #006494;
   border-radius:            10px;
   height:                   auto;
 }
 
-td.pic {
-  align-items:              center;
-}
-
 td.in, th.in {
-  border-bottom: 1px solid #0582ca;
+  
   border-left: 1px solid #0582ca;
 }
-
-
-
 
 p {
   color:                    #0582ca;
@@ -72,15 +75,6 @@ p.img {
   font-size: 20px;
 }
 
-a {
-  color:                    #00a6fb;
-  text-decoration-style:    solid;
-}
-
-u {
-  text-decoration-line:     underline;
-  text-decoration-style:    wavy;
-}
 
 img.pic {
   border-radius: 10px;
