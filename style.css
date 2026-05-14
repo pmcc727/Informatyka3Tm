@@ -1,6 +1,9 @@
+body {
+  margin: 0;
+}
 html {
   font-family:              Lato;
-  background-color:         #000000;
+  background-color:         #1c1c1c;
   color:                    #0582ca;
 }
 
@@ -19,19 +22,32 @@ div.all {
     justify-content: center;
     align-items: flex-start;
     gap: 10px;
-    padding: px;
+}
+
+div.header{
+  display: flex;
+  height: 20px;
+  position: fixed;
+  background: #051923;
+  width: 100%;
+  min-height: 100px;
+  justify-content: space-between;
+
+
 }
 
 div.main{
     width: 800px;
     margin:  auto;
-    background: #000000;
+    background: #272727;
     padding: 20px;
+    margin-top: 90px;
+    
 }
 
 div.side{
     position: fixed;
-    top: 20px;
+    top: 120px;
     left: 20px;
     border-radius: 10px;
     border: 2px solid #006494;
@@ -39,15 +55,23 @@ div.side{
     background: #051923;
     color: white;
     padding: 20px;
-    min-height: ;
+}
+
+div.button{
+    display: flex;
+    
+
 }
 
 button{
+   
     background-color: #0582ca;
     border-color: #051923;
     border-radius: 5px;
     height: 30px;
-    margin-bottom: 5px;
+    margin-top: 30px;
+    margin-right: 20px;
+    gap: 1px;
 }
 
 
@@ -75,6 +99,15 @@ p.img {
   font-size: 20px;
 }
 
+iframe {
+  margin-top: 10px;
+  width: 800px;
+  min-height: 500px;
+  border: solid 3px #006494;
+  border-radius: 10px;
+
+  
+}
 
 img.pic {
   border-radius: 10px;
@@ -83,6 +116,7 @@ img.pic {
   margin-bottom:            10px;
   margin-top:               0px;
 }
+
 
 h1 {
   margin-bottom:            5px;
