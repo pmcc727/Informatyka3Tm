@@ -11,22 +11,50 @@
   </head>
   
   <body>
-  <div class="all">                                                          <!--Wywołanie Stylu z Pliku .css-->    
+<div class="all">
+
+
+   <div class="side">
+    <h3 style="color: #028a3d;">Przelicznik Ceny paliwa</h3>
+    <label for="x">Cena za Litr </label>
+    <input id="x" type="number" placeholder="Podaj cenę za litr: (zł)">
+    <label for="y">Podaj ilość paliwa </label>
+    <input id="y" type="number" placeholder="Podaj ilość paliwa (l)">
+
+     <button onclick="oblicz()">Oblicz</button>
+
+    <p>Zapłacisz: <span id="wynik">-</span></p>
+
+    <script>
+                function oblicz() 
+                {
+                  const x = Number(document.getElementById("x").value);
+                  const y = Number(document.getElementById("y").value);
+                  
+                  const z = x * y;
+
+                  document.getElementById("wynik").textContent = z + " zł";
+                }
+
+              </script>          
+
+
+   </div>                                                       <!--Wywołanie Stylu z Pliku .css-->    
   <div class="header">
   <h1 style="margin-left: 30px;">Rodzaje paliw i typy nadwozia</h1>
-  <div class button>
+  <div class="button">
     <a href="index.html">
     <button class="button">Strona Główna</button>                           <!--Przycisk z lewej strony-->
   </a>
-  
+   
   <a href="gallery.html">                   
-      <button class="button">Galeria</button>                               <!--Przycisk z lewej strony-->
+      <button class="button"> Galeria</button>                               <!--Przycisk z lewej strony-->
   </a>  
   </div>
   
   </div>
                            
-   <div class="main">                                                       <!--### STRONA GŁÓWNA ###-->
+    <div class="main">                                                       <!--### STRONA GŁÓWNA ###-->
                                     <!-- Tytuł -->
     <hr class="start">
     <details class="details">                                               <!--Stworzenie Wysuwanego paska u góry strony oraz Wywołanie Stylu z Pliku .css-->
@@ -141,11 +169,13 @@
        <iframe class="iframe" src="https://zstrybnik.pl" title="Strona Naszej Szkoły"></iframe>   <!--Odnośnik do strony szkoły-->
 
    </div>
-   <div class="side">                                                      <!--### PASEK Z LEWEJ STRONY ###-->
-    
-   </div>
 
-</div>
-  
+   
+  </div>
+
+    <div class="footer">
+      <p style="text-align: center;">Strona stworzona przez: <a href="https://github.com/pmcc727"> pmcc727</a>, <a href="https://github.com/naticuno">naticuno</a> & <a href="https://github.com/zykos4">zykos4</a></p>
+    </div>
+    
   </body>
 </html>
